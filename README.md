@@ -45,14 +45,22 @@ Perna maior do LED é ligado no positivo e a perna menor precisa de um resistor 
   
   ## Fórmula Lei de Ohm
   V = R * I
- > O I significa a intensidade da corrente elétrica, no entanto, muitas vezes se fala apenas da corrente elétrica (sem a palavra intensidade). Quando existe uma diferença de potencial elétrico entre componentes (polarizado) acontece um fluxo de partículas que equilibra o campo elétrico. Esse fluxo é a corrente elétrica.
+  
+ > O "I" significa a intensidade da corrente elétrica, no entanto, muitas vezes se fala apenas da corrente elétrica (sem a palavra intensidade). Quando existe uma diferença de potencial elétrico entre componentes (polarizado) acontece um fluxo de partículas que equilibra o campo elétrico. Esse fluxo é a corrente elétrica.
  
 > A corrente elétrica é medida em Ampere (A) que nada mais é do que a quantidade de elétrons que passa nesse fio em um tempo determinado!
+
 > A tensão elétrica (V) é medida em Volts (V) (em homenagem ao físico Alessandro Volta).
 
 > A resistência (R) é medida em Ohm (Ω) e a intensidade da corrente elétrica (I) em Ampere (A).
 
 > A relação entre tensão, resistência e intensidade da corrente define a Lei de Ohm: V = R * I
+
+> Para calcular a corrente: I = V / R
+
+> Para calcular a resistência: R = V / I
+
+> Para calcular a tensão: V = R * I
 
 ### Tabela de Cores dos resistores na convenção internacional
 <p>
