@@ -11,6 +11,22 @@ Projeto com arduino para desenvolver uma aplicação similar ao dispositivo de r
 - 1 Protoboard (E)
 - 25 Cabos de conexão (F)
 ```
+
+### Software necessário
+
+- [IDE Arduino](https://www.arduino.cc/en/Main/Software)
+- [Documentação sintaxe C++](https://www.arduino.cc/reference/en/)
+
+### Software p/ gerar esquemas de circuitos elétricos 
+
+  Útil para documentar projetos
+
+- Versão paga [Fritzing](https://fritzing.org/home/)
+
+- Versão antiga gratuita, pode ser atualizada para a nova [Fritzing](https://softfamous.com/fritzing/download/)
+
+
+
  ### Placa Arduino com cabo USB (A)
  Porta de 5V e 40mA
 <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/22710963/73710418-aac7de80-46e2-11ea-82d4-fabab3361d1f.png">
@@ -68,11 +84,6 @@ Perna maior do LED é ligado no positivo e a perna menor precisa de um resistor 
   <img src="https://user-images.githubusercontent.com/22710963/73806830-5cc9de00-47a9-11ea-887a-f13d09948aea.png" alt="reset" style="max-width:100%;"></a>
 </p> 
 
-## Software p/ gerar esquemas de circuitos elétricos (útil para documentar projetos)
-
-Versão paga [Fritzing](https://fritzing.org/home/)
-
-Versão antiga gratuita, pode ser atualizada para a nova [Fritzing](https://softfamous.com/fritzing/download/)
 
 
 
