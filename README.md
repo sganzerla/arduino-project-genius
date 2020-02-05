@@ -53,4 +53,20 @@ Perna maior do LED é ligado no positivo e a perna menor precisa de um resistor 
 > A resistência (R) é medida em Ohm (Ω) e a intensidade da corrente elétrica (I) em Ampere (A).
 
 > A relação entre tensão, resistência e intensidade da corrente define a Lei de Ohm: V = R * I
+
+### Tabela de Cores dos resistores na convenção internacional
+<p>
+ <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/22710963/73806830-5cc9de00-47a9-11ea-887a-f13d09948aea.png">
+  <img src="https://user-images.githubusercontent.com/22710963/73806830-5cc9de00-47a9-11ea-887a-f13d09948aea.png" alt="reset" style="max-width:100%;"></a>
+</p> 
+
+## Software p/ gerar esquemas de circuitos elétricos (útil para documentar projetos)
+
+Versão paga [Fritzing](https://fritzing.org/home/)
+
+Versão antiga gratuita, pode ser atualizada para a nova [Fritzing](https://softfamous.com/fritzing/download/)
+
+
+
+
   
