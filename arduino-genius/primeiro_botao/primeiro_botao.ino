@@ -3,14 +3,9 @@
 
 void setup()
 {
-    Serial.begin(9600);
-    pinMode(BOTAO_VERMELHO, OUTPUT);
-
-    pinMode(BOTAO_VERMELHO, INPUT);
-
-    digitalWrite(LED_VERMELHO, HIGH);
-    delay(1000);
-    digitalWrite(LED_VERMELHO, LOW);
+  Serial.begin(9600);
+  pinMode(BOTAO_VERMELHO, OUTPUT);
+  pinMode(BOTAO_VERMELHO, INPUT_PULLUP);
 }
 
 void loop()
@@ -18,5 +13,4 @@ void loop()
   int estadoBotao = digitalRead(BOTAO_VERMELHO);
   Serial.println(estadoBotao);
   delay(500);
-   
 }
