@@ -25,7 +25,8 @@ Projeto com arduino para desenvolver uma aplicação similar ao dispositivo de r
 
 - Versão antiga gratuita, pode ser atualizada para a nova [Fritzing](https://softfamous.com/fritzing/download/)
 
-
+### Ambiente Virtual de Hardware e Software 
+- [TinkerCad](https://www.tinkercad.com)
 
  ### Placa Arduino com cabo USB (A)
  Porta de 5V e 40mA
@@ -84,7 +85,11 @@ Perna maior do LED é ligado no positivo e a perna menor precisa de um resistor 
   <img src="https://user-images.githubusercontent.com/22710963/73806830-5cc9de00-47a9-11ea-887a-f13d09948aea.png" alt="reset" style="max-width:100%;"></a>
 </p> 
 
-
+### Protótipo de Circuito
+<p>
+ <a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/22710963/74494674-62fc4080-4eb4-11ea-87b1-5d2b6ce26b21.png">
+  <img src="https://user-images.githubusercontent.com/22710963/74494674-62fc4080-4eb4-11ea-87b1-5d2b6ce26b21.png" alt="reset" style="max-width:100%;"></a>
+</p> 
 
 
 
