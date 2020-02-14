@@ -26,7 +26,7 @@ Projeto com arduino para desenvolver uma aplicação similar ao dispositivo de r
 - Versão antiga gratuita, pode ser atualizada para a nova [Fritzing](https://softfamous.com/fritzing/download/)
 
 ### Ambiente Virtual de Hardware e Software 
-- [TinkerCad](https://www.tinkercad.com)
+- [TinkerCad](https://www.tinkercad.com) basta realizar cadastro, e será possível simular tanto componente de hardware quanto a lógica de programação envolvida.
 
  ### Placa Arduino com cabo USB (A)
  Porta de 5V e 40mA
