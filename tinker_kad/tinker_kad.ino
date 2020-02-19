@@ -11,13 +11,12 @@
 #define TIMER_500
 #define TIMER_1000
 
+bool user_error_or_complete_sequence_round = false;
+
 int array_buttons[] = {B_BRANCO, B_AMARELO, B_LARANJA, B_AZUL};
 int array_leds[] = {LED_BRANCO, LED_AMARELO, LED_LARANJA, LED_AZUL};
 int array_leds_sort[100] = {};
 int rounds = 0;
-int step = 0;
-bool game_over = false;
-bool action_player = false;
 
 void setup()
 {
@@ -30,57 +29,33 @@ void loop()
 {
   newRound();
   playRound();
-  //  waitPressPlayer();
-  //  theEndGame();
-}
+  Serial.print("Aguardando resposta do jogador para a sequência da rodada: ");
+  Serial.println(rounds);
 
-void theEndGame()
-{
-  if (game_over)
+  do
   {
-    array_leds_sort[100] = {};
-    rounds = 0;
-    step = 0;
-    game_over = false;
-  }
-}
-
-int watch_action_player()
-{
-  for (int i = 0; i <= 3; i++)
-  {
-    if (digitalRead(array_buttons[i]) == HIGH)
+    for (int i = 0; i < 4; i++)
     {
-      setOnLed(array_leds[array_leds_sort[i]]);
-      action_player = true;
-      return i;
-    }
-  }
-}
+      Serial.print("Button: ");
+      Serial.println(array_buttons[i]);
+      Serial.print(" -> ");
+      Serial.println(digitalRead(array_buttons[i]));
 
-void waitPressPlayer()
-{
-  int button_pressed = 0;
-  for (int i = 0; i < rounds; i++)
-  {
-
-    while (!action_player)
-    {
-      button_pressed = watch_action_player();
-    }
-
-    if (array_leds[array_leds_sort[step]] != button_pressed)
-    {
-      for (int i = 0; i <= 3; i++)
+      if (digitalRead(array_buttons[i]))
       {
-        setOnLed(array_leds[array_leds_sort[i]]);
+        Serial.print("Botão pressionado:");
+        Serial.println(array_buttons[i]);
+        array_buttons[i] = LOW;
       }
-      game_over = true;
-      break;
+      if (i == 3)
+      {
+        i = 0;
+      }
     }
-    step++;
-  }
-  step = 0;
+
+  } while (!user_error_or_complete_sequence_round);
+  Serial.println("Nova rodada.");
+  delay(2000);
 }
 
 void playRound()
@@ -88,6 +63,7 @@ void playRound()
   Serial.println();
   Serial.print("Round: ");
   Serial.println(rounds);
+  Serial.print("Portas sorteadas: ");
 
   for (int i = 0; i < rounds; i++)
   {
@@ -95,20 +71,27 @@ void playRound()
     Serial.print(array_leds[array_leds_sort[i]]);
     Serial.print(" ");
     setOnLed(array_leds[array_leds_sort[i]]);
+    if (i == rounds - 1)
+    {
+      Serial.println("");
+      Serial.println("Rodada Encerrada");
+      Serial.println("");
+    }
   }
+
   delay(2000);
 }
 
 void newRound()
 {
-  rounds++;
   array_leds_sort[rounds] = random(4);
+  rounds++;
 }
 
 void setOnLed(int port)
 {
   digitalWrite(port, HIGH);
-  delay(1000);
+  delay(1200);
   digitalWrite(port, LOW);
   delay(500);
 }
