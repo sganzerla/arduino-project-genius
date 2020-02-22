@@ -2,7 +2,7 @@
  
 Projeto com arduino para desenvolver uma aplicação similar ao dispositivo de repetição/memorização de sequência de cores "Genius".
 
-### Ambiente Virtual de Hardware e Software 
+##### Ambiente Virtual de Hardware e Software TinkerCad
 - [TinkerCad](https://www.tinkercad.com) basta realizar cadastro e será possível simular tanto componentes de hardware quanto a lógica de programação envolvida no circuito. 
 Dispensa a compra dos componentes eletrônicos físicos e a instalação da IDE no computador.
 
@@ -57,7 +57,7 @@ Dispensa a compra dos componentes eletrônicos físicos e a instalação da IDE 
 <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/22710963/73711525-e57f4600-46e5-11ea-8cb9-e9bb27543ea4.png">
   <img src="https://user-images.githubusercontent.com/22710963/73711525-e57f4600-46e5-11ea-8cb9-e9bb27543ea4.png" alt="reset" style="max-width:100%;"></a></p> 
 
-  ### g) Autofalante 
+  ### g) Autofalante DR-O8H
 <p><a target="_blank" rel="noopener noreferrer" href="https://user-images.githubusercontent.com/22710963/75093434-77010b80-5560-11ea-992d-5a833cd84f27.png">
   <img src="https://user-images.githubusercontent.com/22710963/75093434-77010b80-5560-11ea-992d-5a833cd84f27.png" alt="reset" style="max-width:100%;"></a></p> 
 
