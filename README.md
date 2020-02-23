@@ -2,9 +2,9 @@
  
 Projeto com arduino para desenvolver uma aplicação similar ao dispositivo de repetição/memorização de sequência de cores "Genius".
 
-##### Ambiente Virtual de Hardware e Software TinkerCad
-- [TinkerCad](https://www.tinkercad.com) basta realizar cadastro e será possível simular tanto componentes de hardware quanto a lógica de programação envolvida no circuito. 
-Dispensa a compra dos componentes eletrônicos físicos e a instalação da IDE no computador.
+##### Ambiente Virtual de Hardware e Software [TinkerCad](https://www.tinkercad.com)  
+- É possível simular tanto componentes de hardware quanto a lógica de programação envolvida no circuito. Bastante útil porque dispensa a compra dos componentes eletrônicos físicos e a instalação da IDE no computador pra testes.
+- Importe o projeto dentro da plataforma clicando [aqui](https://github.com/sganzerla/arduino-project-genius/blame/genius-sonoro/tinker_cad/projeto_tinker_cad.brd).
 
 ### Software necessário
 
@@ -13,7 +13,7 @@ Dispensa a compra dos componentes eletrônicos físicos e a instalação da IDE 
 
 ### Software p/ gerar esquemas de circuitos elétricos 
 
-  Útil para documentar projetos
+- Útil para documentar projetos
 
 - Versão paga [Fritzing](https://fritzing.org/home/)
 
