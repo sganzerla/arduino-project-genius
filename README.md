@@ -99,8 +99,8 @@ Perna maior do LED é ligado no positivo e a perna menor precisa de um resistor 
 
 ### Teste de Usuário (vídeo)
 <p>
- <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/-QEc7NwJ30s">
-  <img src="https://user-images.githubusercontent.com/22710963/75101384-75fcc800-55ba-11ea-96f7-4382fc2614c5.png" alt="reset" style="max-width:100%;"></a>
+ <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/bx5EyfwTpy0" target="_blank">
+  <img src="https://user-images.githubusercontent.com/22710963/75118081-8f068700-5655-11ea-9d79-45483b3aa899.png" alt="reset" style="max-width:100%;"></a>
 </p> 
 
 
