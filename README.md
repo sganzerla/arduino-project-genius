@@ -1,6 +1,12 @@
 ﻿# arduino-project-genius
  
-Projeto com arduino para desenvolver uma aplicação similar ao dispositivo de repetição/memorização de sequência de cores "Genius".
+Projeto com arduino para desenvolver uma aplicação similar ao dispositivo de repetição/memorização de sequência de cores "Genius". Projeto baseado no código-fonte de [staudt](https://github.com/staudt/Genius) sob licença MIT.
+
+### Teste de Usuário (vídeo)
+<p>
+ <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/bx5EyfwTpy0" target="_blank">
+  <img src="https://user-images.githubusercontent.com/22710963/75118081-8f068700-5655-11ea-9d79-45483b3aa899.png" alt="reset" style="max-width:100%;"></a>
+</p> 
 
 ##### Ambiente Virtual de Hardware e Software [TinkerCad](https://www.tinkercad.com)  
 - É possível simular tanto componentes de hardware quanto a lógica de programação envolvida no circuito. Bastante útil porque dispensa a compra dos componentes eletrônicos físicos e a instalação da IDE no computador pra testes.
@@ -97,11 +103,6 @@ Perna maior do LED é ligado no positivo e a perna menor precisa de um resistor 
   <img src="https://user-images.githubusercontent.com/22710963/75096770-a2e0b900-5581-11ea-9f03-3eb47b28f72a.png" alt="reset" style="max-width:100%;"></a>
 </p> 
 
-### Teste de Usuário (vídeo)
-<p>
- <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/bx5EyfwTpy0" target="_blank">
-  <img src="https://user-images.githubusercontent.com/22710963/75118081-8f068700-5655-11ea-9d79-45483b3aa899.png" alt="reset" style="max-width:100%;"></a>
-</p> 
 
 
 
